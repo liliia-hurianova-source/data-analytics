@@ -1,3 +1,8 @@
+-- marketing_metrics_utm_campaign.sql
+-- This query analyzes marketing performance by UTM campaign.
+-- It calculates key metrics such as sessions, conversions, and conversion rate
+-- using Google Analytics 4 sample data.
+
 with fb_and_google_data as (
 select ad_date, 
 'facebook' media_source, 
